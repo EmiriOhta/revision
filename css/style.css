@@ -37,7 +37,7 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: 23vw;
+    left: 21vw;
 }
 
 /* .page-title img {
@@ -142,7 +142,7 @@ article {
     color: #333333;
     margin-left: 1.7vw;
     font-size: 32px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .article-content {
