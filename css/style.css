@@ -24,8 +24,6 @@ main {
     text-align: center;
     padding: 7.4vh 0;
     margin-bottom: 23.7vh;
-    /* display: flex;
-    justify-content: center; */
 }
 
 .page-title h1::before {
@@ -39,12 +37,6 @@ main {
     position: absolute;
     left: 21vw;
 }
-
-/* .page-title img {
-    width: 70px;
-    height: 70px;
-    margin-right: 5vw;
-} */
 
 .page-title h1 {
     font-size: 56px;
@@ -78,12 +70,17 @@ main {
     border-radius: 10px;
 }
 
-.info {
+.info-wrapper {
     height: 52vh;
     padding: 7.4vh 3.3vw;
     background-color: #F4F7FD;
     border-radius: 10px;
+}
+
+.info {
     overflow-y: scroll;
+    height: 40vh;
+
 }
 
 .info::-webkit-scrollbar {
